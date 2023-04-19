@@ -3,6 +3,7 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-color: black;
 }
 
 body {
@@ -61,6 +62,7 @@ article {
 }
 #main_title{
     color: #00C5A7;
+    font-size: 40px;
 }
 #mbti_text{
     color: #6e6e6e;
