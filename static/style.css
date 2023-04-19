@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color:#000000;
+    color: whitesmoke;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    font-family: 'paybooc-Bold';
+}
+
+.question {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+.progress-bar{
+    background-color: #00C5A7;
+}
+
+.btn, .btn:focus{
+    background-color:#00C5A7;
+    border: 0;
+    box-shadow:none;
+}
+
+.btn:hover, .btn:active{
+    background-color: #78e3cc;
+}
+
+#img1{
+    height: 100%;
+    width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#img2{
+    height: 100%;
+    width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#img3{
+    height: 100%;
+    width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#main_title{
+    color: #00C5A7;
+}
+#mbti_text{
+    color: #6e6e6e;
+    font-size: 18px;
+}
+#presume_text{
+    color: #6e6e6e;
+    font-size: 12px;
+}
+.share {
+    margin: 0 auto;
+}
+
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+#explain_box {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 769px) {
+    #explain_box {
+        width: 610px;
+    }
+}
+
+#copyright {
+    color: #6e6e6e;
+    font-size: 11px;
+}
